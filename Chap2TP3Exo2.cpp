@@ -15,7 +15,7 @@ int main()
 	scanf("%c", &c); // Comme c'est un une chaine de caractere et une variable char, pour lire la réponse on utilise le %c.
 	p = strchr(s, c); // La fonction recherche strchr nous permet d'avoir la première occurrence du caractère passé en second paramètre dans la chaîne de caractères.
 
-	printf("Le caractere %c se trouve a la position %d à partir de la droite", c, p - s + 1);
+	printf("Le caractere %c se trouve a la position %d à partir de la droite", c, p - s + 1); // Le %c est équivaud au caractére choisis par l'utilisateur. %d qui affiche la position du caractere, %d car la position est un entiers.
 
 	return 0;
   
